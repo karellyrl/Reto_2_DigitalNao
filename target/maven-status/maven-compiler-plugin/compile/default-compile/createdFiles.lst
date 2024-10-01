@@ -1,0 +1,6 @@
+com\universidad\controllers\InvestigadorController.class
+com\universidad\views\InvestigadorView.class
+com\universidad\utils\DatabaseConnection.class
+com\universidad\models\Investigador.class
+com\universidad\models\InvestigadorDAO.class
+com\universidad\Main.class
