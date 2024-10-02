@@ -100,15 +100,15 @@ La aplicación hará las peticiones a la API de SerpApi, extraerá la informaci�
 
    ```bash
    /src
-  /main
-    /java
-      /com/universidad
-        /Main.java         # Clase principal
-        /model             # Contiene las clases del Modelo
-        /controller        # Contiene las clases del Controlador
-        /view              # Contiene las clases de la Vista
-    /resources             # Archivos de configuración y recursos
-/pom.xml                   # Archivo de configuración de Maven
+   /main
+     /java
+       /com/universidad
+         /Main.java         # Clase principal
+         /model             # Contiene las clases del Modelo
+         /controller        # Contiene las clases del Controlador
+         /view              # Contiene las clases de la Vista
+     /resources             # Archivos de configuración y recursos
+   /pom.xml                   # Archivo de configuración de Maven
 
    
 ## Ver Resultados en MySQL
@@ -133,8 +133,3 @@ Para verificar los datos almacenados en MySQL después de ejecutar la aplicació
 
    ```bash
    SELECT * FROM investigadores WHERE nombre = 'Nombre del Investigador';
-
-
-
-
-
